@@ -1,0 +1,29 @@
+body
+{
+background: #222;
+overflow: hidden;
+
+}
+i
+{
+position: absolute;
+width: 6px;
+height: 6px;
+background: #0f0;
+pointer-events: none;
+animation: alternate 2s linear forwards;
+}
+@keyframes animate
+{
+0%
+{
+    opacity:1;
+}
+100%
+{
+opacity: 0;
+
+}
+
+
+} 
